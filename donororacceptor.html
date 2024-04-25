@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donor and Acceptor Buttons</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        display:flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        height: 100vh;
+        margin: 0; 
+        background: url(background_donor.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .main_box{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        height: 400px;
+        width: 400px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px; 
+        justify-content: center;
+        align-items: center;
+    }
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        vertical-align: middle;
+        text-align: center;
+
+    }
+    .button {
+        padding: 10px 20px;
+        font-size: 16px;
+        height: 25px;
+        width: 60px;
+        color: #fff; 
+        border: none; 
+        border-radius: 5px; 
+        cursor: pointer; 
+        margin: 5px; 
+        transition: background-color 0.3s; 
+        background-color: transparent;
+        text-decoration: none;
+    }
+    .donor {
+        background-color: #28a745; /* Green background */
+    }
+    .donor:hover {
+        background-color: #218838; /* Darker green on hover */
+    }
+    .acceptor {
+        background-color: #007bff; /* Blue background */
+    }
+    .acceptor:hover {
+        background-color: #0069d9; /* Darker blue on hover */
+    }
+    .login-text {
+        margin-bottom: 20px; 
+        font-size: 50px; 
+        text-align: center; 
+        font-weight: 1000;
+        color: black;
+    }
+</style>
+</head>
+<body>
+    <div class="main_box">
+        <div class="login-text">Login as a</div>
+        <div class="button-container">
+            <a href="donorform.html" class="button donor">Donor</a>
+            <a href="donor_list.html" class="button acceptor">Acceptor</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Sharing App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('background_donor.jpg') no-repeat;
+            background-size: cover;
+            background-position: center;
+            z-index: -1;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .donor {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+
+        .donor:last-child {
+            border-bottom: none;
+        }
+
+        .donor h3 {
+            margin-top: 0;
+        }
+
+        .donor p {
+            margin: 10px 0;
+        }
+
+        .accept-button {
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .accept-button:hover {
+            background-color: #45a049;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2 align="center">List of Donors</h2>
+    <div class="donor">
+        <h3>1st Donor</h3>
+        
+        <p>Quantity: Roti and Curries- <br><span style="float: right;font-weight: 700;">Sufficient for 1000 people</span></p>
+        <button class="accept-button" onclick="redirectToContact()">Accept Donation</button>
+    </div>
+    <div class="donor">
+        <h3>2nd Donor</h3>
+        
+        <p>Quantity: Roti, Rice and Curries- <br><span style="float: right;font-weight: 700;">Sufficient for 500 people</span></p>
+        <button class="accept-button" onclick="redirectToContact()">Accept Donation</button>
+    </div>
+    <div class="donor">
+        <h3>3rd Donor</h3>
+        
+        <p>Quantity: Roti, Rice and Curries, bakeries and cakes- <br><span style="float: right;font-weight: 700;">Sufficient for 700 people</span></p>
+        <button class="accept-button" onclick="redirectToContact()">Accept Donation</button>
+    </div>
+    <div class="donor">
+        <h3>4th Donor</h3>
+       
+        <p>Quantity: Rice and Curries- <br><span style="float: right;font-weight: 700;">Sufficient for 50 people</span></p>
+        <button class="accept-button" onclick="redirectToContact()">Accept Donation</button>
+    </div>
+    <div class="donor">
+        <h3>5th Donor</h3>
+        
+        <p>Quantity: Roti, Rice and Sambar,pulses- <br><span style="float: right;font-weight: 700;">Sufficient for 750 people</span></p>
+        <button class="accept-button" onclick="redirectToContact()">Accept Donation</button>
+    </div>
+    <div class="donor">
+        <h3>6th Donor</h3>
+        
+        <p>Quantity: Roti and Curries- <br><span style="float: right;font-weight: 700;">Sufficient for 500 people</span></p>
+        <button class="accept-button" onclick="redirectToContact()">Accept Donation</button>
+    </div>
+</div>
+
+<script>
+    confirm("If click confirmed you cannot be redirected backwards");
+
+    function redirectToContact() {
+        window.location.href = "donor_acceptordetails.html";
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,234 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Handlee', cursive;
+    color: #333;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.nav-left ul {
+    overflow: auto;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.nav-left li {
+    padding-top: 10px;
+    float: right;
+    list-style: none;
+    margin: 15px 20px;
+}
+
+.nav-left li a {
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 10px;
+}
+
+.nav-left li a:hover {
+    background-color: rgb(255, 179, 0);
+    color: black;
+    font-weight: bold;
+}
+
+.nav-left p {
+    font-size: 35px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+/* Main landing section */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('home_pic.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* .main-landing-section1, */
+.main-landing-section2 {
+    float: right;
+    width: 50%;
+    padding: 300px 100px;
+}
+
+/* .main-landing-section1 img {
+    height: 400px;
+    width: 500px;
+    border-radius: 5%;
+    border-style: groove;
+    border-color: white;
+} */
+
+/* .main-landing-section2 {
+    font-size: 30px;
+} */
+
+.main-landing-section2 h1 {
+    font-size: 100px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    /* For WebKit browsers */
+    background-clip: text;
+    color: transparent;
+}
+
+.main-landing-section2 p {
+    font-size: 30px;
+    font-weight: 600;
+    color: aliceblue;
+
+}
+
+.landing-donate-btn {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 25px;
+    border-radius: 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.landing-donate-btn:hover {
+    background-color: rgb(255, 179, 0);
+    color: black;
+    font-weight: bold;
+}
+
+/* About us section */
+.about-us {
+    background-color: whitesmoke;
+    color: black;
+    padding: 100px;
+    height: 100vh;
+}
+
+.about-us-heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-us-heading {
+    font-size: 50px;
+}
+
+.about-us-sub-heading {
+    font-size: 25px;
+}
+
+.about-us-main {
+    padding-top: 50px;
+}
+
+.about-us-about {
+    font-size: 22px;
+    text-align: left;
+    line-height: 40px;
+}
+
+.about-us-pic {
+    max-width: 420px;
+    float: right;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+/* Our impact section */
+.our-impact {
+    background-color: rgb(33, 33, 33);
+    color: white;
+    padding: 100px;
+}
+
+.our-impact-heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-impact-heading {
+    font-size: 50px;
+}
+
+.section {
+    padding-bottom: 100px;
+}
+
+.section-para {
+    font-size: 22px;
+    text-align: justify;
+    line-height: 40px;
+    font-weight: 100;
+}
+
+.section1-image,
+.section2-image {
+    max-width: 420px;
+    border-radius: 10px;
+}
+
+.section1-image {
+    float: right;
+    margin-left: 50px;
+}
+
+.section2-image {
+    float: left;
+    margin-right: 50px;
+}
+
+/* Contact us section */
+.contact-us {
+    background-color: whitesmoke;
+    color: black;
+    padding: 100px;
+}
+
+.contact-us-heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us-heading {
+    font-size: 60px;
+}
+
+.contact-us-para {
+    margin-left: 120px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.contact-us-contact {
+    margin-top: 30px;
+}
+
+.contact-us-contact a {
+    text-decoration: none;
+}

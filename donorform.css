@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+body {
+    background-image: url('https://t4.ftcdn.net/jpg/04/98/47/53/360_F_498475327_1fHyorA3Pf0PVeOaIBc5XcjKvliiZCrs.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+    color: #3ca9e2;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+/* Starting navbar */
+
+.navbar {
+
+    color: rgb(253, 251, 251);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border: 10px;
+    border-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-left ul {
+    overflow: auto;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    width: fit-content;
+    margin-top: 2px;
+}
+
+.nav-left li {
+    border-radius: 10px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    float: right;
+    list-style: none;
+    margin: 15px 20px;
+    padding-top: 7px;
+}
+
+.nav-left li a {
+    color: white;
+    font-size: 20px;
+    /* padding: 10px 20px; */
+    text-decoration: none;
+    font: optional;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    transition-duration: 0.55s;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.nav-left li :hover {
+    background-color: rgb(255, 179, 0);
+    color: black;
+    font-weight: bold;
+}
+
+
+.navbar p {
+    font-size: 25px;
+    font-family: Handlee;
+    font-style: normal;
+    padding-top: 20px;
+    padding-left: 30px;
+    width: fit-content;
+}
+
+.nav-left .btnLogin-popup {
+
+    border: 0px;
+    font-family: Handlee;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_info {
+    margin-top: 50px;
+    color: black;
+    margin-left: 200px;
+    font-size: x-large;
+}
+
+.contact {
+    width: 100%;
+    display: inline;
+    height: 100vh;
+}
+
+.contact-text {
+    width: 50%;
+    max-height: fit-content;
+    float: left;
+
+}
+
+.contact-form {
+    width: 80%;
+    float: right;
+    align-content: center;
+    margin-top: 200px;
+    margin-bottom: 300px;
+}
+
+.contact-form form {
+
+    position: relative;
+    padding-top: 30px;
+}
+
+.contact-form form input,
+form textarea {
+    width: 80%;
+    padding: 14px;
+    background-color: #20242d;
+    border: 1px solid white;
+    margin-top: 1rem;
+}
+
+.contact-form .submit {
+    width: 20%;
+    margin-left: 30%;
+    color: white;
+    background: rgba(59, 224, 216, 0.493);
+}
+
+.contact-form .submit:hover {
+    background: white;
+    color: black;
+}

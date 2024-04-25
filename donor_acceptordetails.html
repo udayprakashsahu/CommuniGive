@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donor and Acceptor Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding-top: 250px;
+            background-color: #f3f3f3;
+            background: url('back.jpg') no-repeat;
+            background-size: cover;
+            background-position: center;
+            z-index: -1;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .button
+        {
+            margin:3px 35px 3px 35px;
+            padding-left: 700px;
+        }
+
+        a
+        {
+            text-decoration: none;
+            font-weight: 500;
+            color: white;
+            background-color: #1f1e1e;
+            padding:10px;
+        }
+
+        .section {
+            width: 45%;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .section:first-child {
+            margin-right: 20px;
+        }
+
+        .details {
+            padding: 20px;
+        }
+
+        .person {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .person img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 20px;
+            object-fit: cover;
+            border: 3px solid #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .person-info {
+            flex: 1;
+        }
+
+        .person h3 {
+            margin: 5px 0;
+            color: #333;
+        }
+
+        .person p {
+            margin: 5px 0;
+            color: #666;
+        }
+
+        .food-type {
+            background-color: #f0ad4e;
+            color: #fff;
+            padding: 15px 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+
+        .acceptor-details {
+            background-color: #DFF0D8;
+            border-left: 5px solid #5cb85c;
+            padding: 20px;
+        }
+
+        .acceptor-details h2 {
+            color: #5cb85c;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="section">
+        <div class="details">
+            <div class="person">
+                <img src="donor.jpg" alt="Donor Image">
+                <div class="person-info">
+                    <h3>Donor Name</h3><br>
+                    <p>Phone Number:<br> 123-456-7890</p>
+                </div>
+            </div>
+            <p><span class="food-type">Details: Net Quantity-15kg<br>Includes: Roti,Chapati,Rice and Curries</span></p>
+        </div>
+    </div>
+    <div class="section">
+        <div class="acceptor-details">
+            <h2>Acceptor Details</h2>
+            <div class="details">
+                <div class="person">
+                    <img src="acceptor.jpg" alt="Acceptor Image">
+                    <div class="person-info">
+                        <h3>Acceptor Name</h3><br>
+                        <p>Phone Number:<br> 987-654-3210</p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+  
+</div>
+<div class="button">
+    <a href="index.html">Home</a>
+</div>
+
+</body>
+</html>
